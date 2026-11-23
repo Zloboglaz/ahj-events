@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Игра с гоблинами</title>
+</head>
+<body>
+  <main>
+    <h1>Игра с гоблинами</h1>
+    <p>Попадите по гоблину за одну секунду. Пять пропущенных появлений — конец игры.</p>
+    <div id="scoreboard">
+      <p>Попадания: <span id="hits">0</span> · Промахи: <span id="misses">0</span> / 5</p>
+      <p id="status" role="status" aria-live="polite"></p>
+    </div>
+    <div id="board"></div>
+  </main>
+</body>
+</html>
